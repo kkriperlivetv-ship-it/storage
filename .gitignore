@@ -1,0 +1,31 @@
+# Зависимости
+node_modules/
+
+# База данных
+storage.db
+storage.db-journal
+
+# Загруженные файлы
+storage/
+*.zip
+*.rar
+*.txt
+
+# Файлы окружения
+.env
+.env.local
+.env.*.local
+
+# Логи
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
