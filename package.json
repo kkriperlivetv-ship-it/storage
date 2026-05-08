@@ -1,0 +1,16 @@
+{
+  "name": "telegram-storage-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for file storage with Google Drive support",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.15.3",
+    "sqlite3": "^5.1.6",
+    "dotenv": "^16.3.1",
+    "googleapis": "^126.0.1",
+    "express": "^4.18.2"
+  }
+}
